@@ -1,6 +1,6 @@
     </main>
     
-    <footer class="bg-dark py-12">
+    <footer class="bg-darker py-12">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; <?= date('Y') ?> OwlSaint Gaming. All rights reserved.</p>
+                <p>&copy; <?= date('Y') ?> OwlSaint Store. All rights reserved.</p>
             </div>
         </div>
     </footer>

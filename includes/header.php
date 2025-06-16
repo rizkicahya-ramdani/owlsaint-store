@@ -6,7 +6,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OwlSaint Gaming - Premium Game Accounts</title>
+    <title>OwlSaint Store - Premium Game Accounts</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -37,8 +37,8 @@ session_start();
             </a>
             
             <nav class="hidden md:flex space-x-8">
-                <a href="../index.php" class="hover:text-primary transition">Home</a>
-                <a href="http://localhost/owlsaint/pages/products.php" class="hover:text-primary transition">Products</a>
+                <a href="/owlsaint/" class="hover:text-primary transition">Home</a>
+                <a href="/owlsaint/pages/products.php" class="hover:text-primary transition">Products</a>
                 <a href="#" class="hover:text-primary transition">About</a>
                 <a href="#" class="hover:text-primary transition">Contact</a>
             </nav>
@@ -50,12 +50,12 @@ session_start();
                         <span><?= htmlspecialchars($_SESSION['username']) ?></span>
                     </a>
                     <?php if($_SESSION['role'] === 'admin'): ?>
-                        <a href="../admin/dashboard.php" class="bg-primary hover:bg-indigo-700 px-4 py-2 rounded-md transition">Admin</a>
+                        <a href="/owlsaint/admin/dashboard.php" class="bg-primary hover:bg-indigo-700 px-4 py-2 rounded-md transition">Admin</a>
                     <?php endif; ?>
-                    <a href="http://localhost/owlsaint/includes/auth.php?action=logout" class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-md transition">Logout</a>
+                    <a href="/owlsaint/includes/auth.php?action=logout" class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-md transition">Logout</a>
                 <?php else: ?>
-                    <a href="http://localhost/owlsaint/pages/login.php" class="hover:text-primary transition">Login</a>
-                    <a href="http://localhost/owlsaint/pages/register.php" class="bg-primary hover:bg-indigo-700 px-4 py-2 rounded-md transition">Register</a>
+                    <a href="/owlsaint/pages/login.php" class="hover:text-primary transition">Login</a>
+                    <a href="/owlsaint/pages/register.php" class="bg-primary hover:bg-indigo-700 px-4 py-2 rounded-md transition">Register</a>
                 <?php endif; ?>
                 <button id="mobile-menu-button" class="md:hidden text-2xl">
                     <i class="fas fa-bars"></i>

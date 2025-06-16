@@ -21,7 +21,7 @@
         <h2 class="text-3xl font-bold text-center mb-12">Featured <span class="text-primary">Games</span></h2>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div class="bg-darker rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+            <div class="bg-darker rounded-lg overflow-hidden shadow-lg">
                 <img src="assets/images/games/valorant.jpg" alt="Valorant" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="font-semibold text-lg mb-2">Valorant</h3>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             
-            <div class="bg-darker rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+            <div class="bg-darker rounded-lg overflow-hidden shadow-lg">
                 <img src="assets/images/games/genshin.jpg" alt="Genshin Impact" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="font-semibold text-lg mb-2">Genshin Impact</h3>
@@ -37,7 +37,7 @@
                 </div>
             </div>
             
-            <div class="bg-darker rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+            <div class="bg-darker rounded-lg overflow-hidden shadow-lg">
                 <img src="assets/images/games/lol.jpg" alt="League of Legends" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="font-semibold text-lg mb-2">League of Legends</h3>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             
-            <div class="bg-darker rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+            <div class="bg-darker rounded-lg overflow-hidden shadow-lg">
                 <img src="assets/images/games/fortnite.jpg" alt="Fortnite" class="w-full h-40 object-cover">
                 <div class="p-4">
                     <h3 class="font-semibold text-lg mb-2">Fortnite</h3>
